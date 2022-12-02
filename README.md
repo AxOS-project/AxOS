@@ -20,8 +20,16 @@ Team :
   
   Hacked Storm (web dev) 
   
-  -------------------------------------------
+ -------------------------------------------
  
  !!! Still in developpement ! bugs may be encountered
  
+ -------------------------------------------
+ 
  Discord : https://discord.gg/xQdtDBFmsy
+ 
+ -------------------------------------------
+
+
+
+![Screen axos 2](https://user-images.githubusercontent.com/110931544/205274536-750d92eb-52c6-43dd-8eb6-4945ad22311a.png)
