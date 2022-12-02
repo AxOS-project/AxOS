@@ -7,10 +7,10 @@ Improved performances
 
 
 Team :
-  Ardox (Main developper, project captain)
-  Foste380 (designer 1)
-  Escalope222 (designer 2)
-  Hacked Storm (web dev)
+  Ardox (Main developper, project captain) - 
+  Foste380 (designer 1) - 
+  Escalope222 (designer 2) - 
+  Hacked Storm (web dev) - 
   
  
  !!! Still in developpement ! bugs may be encountered
