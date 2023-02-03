@@ -19,11 +19,7 @@ Team :
   Escalope222 (designer 2) - 
   
   Hacked Storm (web dev) 
-  
- -------------------------------------------
- 
- !!! Still in developpement ! bugs may be encountered
- 
+   
  -------------------------------------------
  
  Discord : https://discord.gg/xQdtDBFmsy
