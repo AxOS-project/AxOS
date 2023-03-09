@@ -21,10 +21,10 @@ Team :
   Hacked Storm (web dev) 
    
  -------------------------------------------
- 
- Discord : https://discord.gg/xQdtDBFmsy
+
+ Discord : https://discord.gg/xQdtDBFms
  Download Link : https://mega.nz/folder/5slz0aKD#j7dbIEM1AWi8RnxG5FwYWg
- 
+
  -------------------------------------------
 
 ![Screenshot_20230203_092722](https://user-images.githubusercontent.com/110931544/216549881-f9bc77ed-3f3d-4fd1-8501-4be3a807acfe.png)
