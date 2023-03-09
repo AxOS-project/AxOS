@@ -23,6 +23,7 @@ Team :
  -------------------------------------------
  
  Discord : https://discord.gg/xQdtDBFmsy
+ Download Link : https://mega.nz/folder/5slz0aKD#j7dbIEM1AWi8RnxG5FwYWg
  
  -------------------------------------------
 
