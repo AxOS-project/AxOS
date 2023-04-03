@@ -22,7 +22,7 @@ Team :
    
  -------------------------------------------
 
- - Website : https://levraiardox.github.io/axos.com -
+ - Website : https://levraiardox.github.io -
 
  - Discord : https://discord.gg/xQdtDBFms -
 
