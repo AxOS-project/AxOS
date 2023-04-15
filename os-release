@@ -1,9 +1,9 @@
 NAME="AxOS"
-PRETTY_NAME="AxOS 2.5.9"
+PRETTY_NAME="AxOS 2.6.0"
 ID=arch
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
-HOME_URL="https://levraiardox.github.io/axos.com"
+HOME_URL="https://levraiardox.github.io"
 DOCUMENTATION_URL="https://github.io/LeVraiArdox/AxOS"
 SUPPORT_URL="https://discord.gg/xQdtDBFmsy"
 BUG_REPORT_URL="https://discord.gg/xQdtDBFmsy"
