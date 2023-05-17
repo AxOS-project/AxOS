@@ -14,13 +14,13 @@ Furthermore, AxOS embraces the spirit of the Arch Linux community, which encoura
 
 Team :
 
-  Ardox (Main developper, project captain) - 
+  Ardox (Main developper, project foubnder) - 
   
   Foste380 (designer 1) - 
   
   Escalope222 (designer 2) - 
   
-  Hacked Storm (web dev) 
+  Hacked Storm (web dev) -
    
  -------------------------------------------
 
@@ -31,10 +31,7 @@ Team :
  - Download Link : https://mega.nz/folder/5slz0aKD#j7dbIEM1AWi8RnxG5FwYWg -
 
  -------------------------------------------
-
-![Screenshot_20230203_092722](https://user-images.githubusercontent.com/110931544/216549881-f9bc77ed-3f3d-4fd1-8501-4be3a807acfe.png)
-
-![Screenshot_20230203_093034](https://user-images.githubusercontent.com/110931544/216550618-29fb16a1-dd40-4e39-b972-adb356fb2e7d.png)
-
+![axos-desktop](https://github.com/LeVraiArdox/AxOS/assets/110931544/21a39854-6485-4434-86b1-7fc3164ba12f)
+![AxOS-desktop-apps](https://github.com/LeVraiArdox/AxOS/assets/110931544/84247b3e-f1ac-441d-9f03-fbf159fd0934)
 --------------------------------------------
-WARNING: Live cd is functional, but installation crashes often. So you can test AxOS, but dint install it yet, until this message disappears
+WARNING: ALPHA VERSION ! Live cd is functional, but installation often crashes. So you can test AxOS, but don't install it yet, until this message disappears
