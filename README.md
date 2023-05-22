@@ -13,6 +13,7 @@ Furthermore, AxOS embraces the spirit of the Arch Linux community, which encoura
 -------------------------------------------
 
 Founder: Ardox <LVArdox@proton.me>
+
  -------------------------------------------
 
  - Website : https://levraiardox.github.io -
@@ -22,7 +23,10 @@ Founder: Ardox <LVArdox@proton.me>
  - Download Link : https://mega.nz/folder/5slz0aKD#j7dbIEM1AWi8RnxG5FwYWg -
 
  -------------------------------------------
+
+ WARNING: BETA VERSION ! Live cd is functional, but installation often crashes, depending on your firmware ! You can test AxOS, but don't install it yet, until this message disappears
+
+--------------------------------------------
 ![axos-desktop](https://github.com/LeVraiArdox/AxOS/assets/110931544/21a39854-6485-4434-86b1-7fc3164ba12f)
 ![AxOS-desktop-apps](https://github.com/LeVraiArdox/AxOS/assets/110931544/84247b3e-f1ac-441d-9f03-fbf159fd0934)
 --------------------------------------------
-WARNING: ALPHA VERSION ! Live cd is functional, but installation often crashes. So you can test AxOS, but don't install it yet, until this message disappears
