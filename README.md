@@ -12,16 +12,7 @@ Furthermore, AxOS embraces the spirit of the Arch Linux community, which encoura
 
 -------------------------------------------
 
-Team :
-
-  Ardox (Main developper, project foubnder) - 
-  
-  Foste380 (designer 1) - 
-  
-  Escalope222 (designer 2) - 
-  
-  Hacked Storm (web dev) -
-   
+Founder: Ardox <LVArdox@proton.me>
  -------------------------------------------
 
  - Website : https://levraiardox.github.io -
