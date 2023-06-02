@@ -1,5 +1,5 @@
 # AxOS
-AxOS is a Linux distro created by Ardox.
+The linux environement, Enchanced
 
 -------------------------------------------
 AxOS is a cutting-edge operating system that draws its inspiration from Arch Linux, with a French touch. Built upon the foundations of Arch Linux, AxOS combines the power and flexibility of Arch with a refined and elegant user experience. Designed to cater to users who value both aesthetics and performance, AxOS leverages the latest Arch kernel to provide a seamless and efficient computing environment.
