@@ -22,5 +22,11 @@ _ _ _ _ _ _ _ _ _ _ _ _
 - Compatibilité de drivers pour les pc unowhy Y13 et Y14
 - prise en charge de BetterDiscord 
 
+___________________________
+**2.8.0 - 08/03/2023**
+- la correction de bugs 
+- le passage du shell bash par défaut au Zshell (zsh)
+- Correction de certaines erreures de alci
+___________________________
 
-***No changelog for old versions***
+***No changelog for older versions***
