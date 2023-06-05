@@ -1,15 +1,14 @@
 # Changelog
 ______________________________
-**2.7.0 (soon)**
+**2.7.0 - 05/06/2023 11:26**
 - Correction totale des bugs d'installation du système
 - Amelioration de l'ergonomie globale
 - correction de nombreux bugs de performance
 - prise en charge (facultative) du chaotic aur
 - amelioration dans le style global
-- ajout de nombreux logiciels, dont la suite libre Office et AudioTube (alternative a spt sans pub)
+- ajout de nombreux logiciels, dont la suite libre Office et AudioTube (alternative a spotify sans pub)
 - Modification du lanceur d'applications
 - Modification du menu global de l'application
-- Amelioration de l'ergonomie
 - Beacoup d'ameliorations dans le skel
 
 _ _ _ _ _ _ _ _ _ _ _ _

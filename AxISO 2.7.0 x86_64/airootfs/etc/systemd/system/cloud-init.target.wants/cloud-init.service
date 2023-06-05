@@ -1,0 +1,24 @@
+[Unit]
+Description=Initial cloud-init job (metadata service crawler)
+DefaultDependencies=no
+Wants=cloud-init-local.service
+Wants=sshd-keygen.service
+Wants=sshd.service
+After=cloud-init-local.service
+After=systemd-networkd-wait-online.service
+Before=network-online.target
+Before=sshd-keygen.service
+Before=sshd.service
+Before=systemd-user-sessions.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/cloud-init init
+RemainAfterExit=yes
+TimeoutSec=0
+
+# Output needs to appear in instance console output
+StandardOutput=journal+console
+
+[Install]
+WantedBy=cloud-init.target
