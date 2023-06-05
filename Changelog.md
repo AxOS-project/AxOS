@@ -11,6 +11,14 @@ ______________________________
 - Modification du menu global de l'application
 - Beacoup d'ameliorations dans le skel
 
+______________________________
+**2.6.0 - 15/04/2023 22:35**
+
+-Correction de bugs dû au copytoram
+-Amelioration des performances 
+-Purification de l'image ISO et du système
+-correction de bugs sur AxShell
+-Application des modifications AxOS pour Calamares Framework
 _ _ _ _ _ _ _ _ _ _ _ _
 **2.5.9 - 29/03/2023 11:40**
 
