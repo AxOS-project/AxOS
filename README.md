@@ -1,6 +1,8 @@
 # AxOS
 The linux environement, Enchanced
 
+![logo-128](https://github.com/LeVraiArdox/AxOS/assets/110931544/f5b3bcf2-8dac-4d08-9c93-f83f18150d43)
+
 -------------------------------------------
 AxOS is a cutting-edge operating system that draws its inspiration from Arch Linux, with a French touch. Built upon the foundations of Arch Linux, AxOS combines the power and flexibility of Arch with a refined and elegant user experience. Designed to cater to users who value both aesthetics and performance, AxOS leverages the latest Arch kernel to provide a seamless and efficient computing environment.
 
