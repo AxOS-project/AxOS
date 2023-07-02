@@ -1,4 +1,4 @@
-# Changelog
+# Changelog (fr)
 ______________________________
 **2.7.0 - 05/06/2023 11:26**
 - Correction totale des bugs d'installation du système
