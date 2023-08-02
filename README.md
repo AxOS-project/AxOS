@@ -26,6 +26,10 @@ Founder: Ardox <LVArdox@proton.me>
 
  - Wiki : https://github.com/LeVraiArdox/AxOS/wiki -
 
+ - Buy me a coffee :
+ https://ko-fi.com/ardox -
+
+   
  -------------------------------------------
 ![axos-desktop](https://github.com/LeVraiArdox/AxOS/assets/110931544/21a39854-6485-4434-86b1-7fc3164ba12f)
 ![AxOS-desktop-apps](https://github.com/LeVraiArdox/AxOS/assets/110931544/84247b3e-f1ac-441d-9f03-fbf159fd0934)
