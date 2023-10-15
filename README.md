@@ -18,13 +18,13 @@ Founder: Ardox <LVArdox@proton.me>
 
  -------------------------------------------
 
- - Website : https://levraiardox.github.io -
+ - Website : https://axos-project.github.io -
 
  - Discord : https://discord.gg/xQdtDBFms -
 
  - Download Link : https://mega.nz/folder/5slz0aKD#j7dbIEM1AWi8RnxG5FwYWg -
 
- - Wiki : https://github.com/LeVraiArdox/AxOS/wiki -
+ - Wiki : https://github.com/axos-project/AxOS/wiki -
 
  - Buy me a coffee :
  https://ko-fi.com/ardox -
