@@ -1,5 +1,5 @@
 # AxOS
-The linux environement, Enchanced
+The linux environement, enhanced
 
 ![logo-128](https://github.com/LeVraiArdox/AxOS/assets/110931544/f5b3bcf2-8dac-4d08-9c93-f83f18150d43)
 
