@@ -41,6 +41,8 @@
 > [!CAUTION]
 > Installation should works, but i don't garantee at 100% it will be successful.
 
+> [!NOTE]
+> There is no ISO for now, but i'll upload the 24.02 version soon
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
