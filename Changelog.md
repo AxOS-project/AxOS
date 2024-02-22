@@ -7,6 +7,7 @@ _________
 - Removed AxShell
 - Removed blur effects in terminal and file manager
 - Now using AxOS hooks (a lot of cool stuff)
+- Better compatibility with AMD and NVIDIA drivers
 
 _____________________
 **2.7.0 - 05/06/2023 11:26**
