@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
-# shellcheck disable=SC2034
 
 iso_name="AxOS"
 iso_label="AxOS"
-iso_publisher="Ardox <LVArdox@proton.me>"
+iso_publisher="Ardox <@levraiardox>"
 iso_application="AxOS Live/Rescue CD"
-iso_version="2.7.0"
+iso_version="$(date +%y.%m)"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
@@ -22,4 +21,5 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
+  ["/usr/local/bin/alci-displaymanager-check"]="0:0:755"
 )

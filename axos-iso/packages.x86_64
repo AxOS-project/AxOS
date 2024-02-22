@@ -2,11 +2,11 @@ alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
-archlinux-keyring
 b43-fwcutter
 base
-base-devel
+bcachefs-tools
 bind
+bolt
 brltty
 broadcom-wl
 btrfs-progs
@@ -30,24 +30,28 @@ ethtool
 exfatprogs
 f2fs-tools
 fatresize
+foot-terminfo
 fsarchiver
 gnu-netcat
 gpart
 gpm
 gptfdisk
+grml-zsh-config
 grub
 hdparm
 hyperv
 intel-ucode
 irssi
+iw
+iwd
 jfsutils
 kitty-terminfo
+ldns
 less
 lftp
 libfido2
 libusb-compat
 linux
-linux-headers
 linux-atm
 linux-firmware
 linux-firmware-marvell
@@ -60,6 +64,7 @@ man-pages
 mc
 mdadm
 memtest86+
+memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
@@ -76,12 +81,12 @@ nvme-cli
 open-iscsi
 open-vm-tools
 openconnect
+openpgp-card-tools
 openssh
 openvpn
 partclone
 parted
 partimage
-papirus-icon-theme
 pcsclite
 ppp
 pptpclient
@@ -95,6 +100,7 @@ rsync
 rxvt-unicode-terminfo
 screen
 sdparm
+sequoia-sq
 sg3_utils
 smartmontools
 sof-firmware
@@ -106,6 +112,7 @@ tcpdump
 terminus-font
 testdisk
 tmux
+tpm2-tools
 tpm2-tss
 udftools
 usb_modeswitch
@@ -114,6 +121,7 @@ usbutils
 vim
 virtualbox-guest-utils-nox
 vpnc
+wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -121,26 +129,14 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
-zsh-syntax-highlighting
-zsh-history-substring-search
-zsh-autosuggestions
-gcc
-qt5-base
-extra-cmake-modules
-kcoreaddons
-kpmcore
-boost
-yaml-cpp
-gamemode
 
 #AxOS GUI KDE Plasma
+
 plasma
 xorg
-sddm
-bash-completion
-networkmanager
 
 #System Utilities for AxOS
+
 konsole
 kate
 dolphin
@@ -149,7 +145,6 @@ spectacle
 packagekit-qt5
 neofetch
 ark
-discord
 firefox
 arduino
 bleachbit
@@ -158,52 +153,37 @@ discover
 filelight
 kvantum
 print-manager
-krita
 kdeconnect
-ktorrent
 vlc
-jre17-openjdk
-jre-openjdk
-jdk17-openjdk
-jdk-openjdk
-yakuake
-python3
 python
 partitionmanager
 kcalc
-cmatrix
-plymouth
 libreoffice-fresh
-elisa
-audiotube
 kcolorchooser
-kalendar
 kcharselect
-k3b
 kompare
 skanlite
-multimc5
-kalgebra
+sddm
+bash-completion
+networkmanager
+pulseaudio
+papirus-icon-theme
 
 #Installer
+
 alci-calamares
-calamares-config-axos
+alci-calamares-config
 os-prober
 xterm
 
 #AxOS packages
-AxSkel
-axshell
-axlogo
-grub-theme-axos
-plymouth-theme-axos
-AxOS-filesystem
 
-#chaotic-aur-packages
-i3lock-color
-i3lock-fancy-git
-visual-studio-code-bin
-yay
+about-axos
+axskel
+axos-hooks
+axos-hooks-extra
+axos-backgrounds
+
 
 ##### Drivers for GPU
 

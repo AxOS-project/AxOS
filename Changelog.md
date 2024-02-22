@@ -1,5 +1,14 @@
 # Changelog (fr)
-______________________________
+_________
+**24.02** (yeah i changed the version format and started writing in english)
+- Rework on the global style
+- Installation now works (at 99%)
+- Removed useless apps from the ISO
+- Removed AxShell
+- Removed blur effects in terminal and file manager
+- Now using AxOS hooks (a lot of cool stuff)
+
+_____________________
 **2.7.0 - 05/06/2023 11:26**
 - Correction totale des bugs d'installation du système
 - Amelioration de l'ergonomie globale
