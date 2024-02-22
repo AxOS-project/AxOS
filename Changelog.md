@@ -1,4 +1,4 @@
-# Changelog (fr)
+# Changelog
 _________
 **24.02** (yeah i changed the version format and started writing in english)
 - Rework on the global style
