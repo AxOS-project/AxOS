@@ -1,36 +1,144 @@
-# AxOS
-The linux environement, enhanced
+<a name="readme-top"></a>
 
-![logo-128](https://github.com/LeVraiArdox/AxOS/assets/110931544/f5b3bcf2-8dac-4d08-9c93-f83f18150d43)
 
--------------------------------------------
-AxOS is a cutting-edge operating system that draws its inspiration from Arch Linux, with a French touch. Built upon the foundations of Arch Linux, AxOS combines the power and flexibility of Arch with a refined and elegant user experience. Designed to cater to users who value both aesthetics and performance, AxOS leverages the latest Arch kernel to provide a seamless and efficient computing environment.
+<!-- PROJECT SHIELDS -->
+<!--
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+-->
 
-One of the key distinguishing features of AxOS is its emphasis on appearance. With carefully crafted visual elements, intuitive design choices, and attention to detail, AxOS offers a visually pleasing and cohesive interface. From stunning icon sets to thoughtfully selected color schemes, every aspect of the user interface is meticulously designed to create a visually appealing environment.
 
-But AxOS doesn't just stop at aesthetics. It is engineered to deliver exceptional performance. By leveraging the latest kernel advancements from the Arch Linux community, AxOS ensures that users can take full advantage of the latest hardware capabilities while benefiting from optimized system responsiveness. This focus on performance guarantees a smooth and efficient computing experience, even for resource-intensive tasks.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <img src="https://github.com/AxOS-project/AxOS/assets/110931544/baabbfe9-0580-4169-94c8-5fed2d42060e" alt="Logo" width="100" height="100">
+  </a>
 
-Furthermore, AxOS embraces the spirit of the Arch Linux community, which encourages user customization and flexibility. Users have access to a vast repository of software packages, allowing them to tailor their system to meet their specific needs. Whether it's productivity tools, creative applications, or multimedia software, AxOS provides a wide array of options to enhance the user experience.
 
--------------------------------------------
+  <h3 align="center">AxOS</h3>
 
-Founder: Ardox <LVArdox@proton.me>
+  <p align="center">
+    The Linux experience, enhanced.
+    <br />
+    <a href="https://axos-project.github.io"><strong>Website »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/axos-project/AxOS/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/AxOS-project/AxOS/discussions">Request Feature</a>
+    .
+    <a href="https://github.com/axos-project/AxOS/releases/">Download</a>
+    <br />
+    <br />
+  </p>
+</div>
 
- -------------------------------------------
 
- - Website : https://axos-project.github.io -
+> [!CAUTION]
+> Installation should works, but i don't garantee at 100% it will be successful.
 
- - Discord : https://discord.gg/xQdtDBFms -
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#Todo">Todo</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
- - Download Link : https://mega.nz/folder/5slz0aKD#j7dbIEM1AWi8RnxG5FwYWg -
 
- - Wiki : https://github.com/axos-project/AxOS/wiki -
 
- - Buy me a coffee :
- https://ko-fi.com/ardox -
+<!-- ABOUT THE PROJECT -->
+## About The Project
+![Screenshot_20240222_193935](https://github.com/AxOS-project/AxOS/assets/110931544/307c0186-d5c5-419f-863f-8d099e3dab64)
 
-   
- -------------------------------------------
-![axos-desktop](https://github.com/LeVraiArdox/AxOS/assets/110931544/21a39854-6485-4434-86b1-7fc3164ba12f)
-![AxOS-desktop-apps](https://github.com/LeVraiArdox/AxOS/assets/110931544/84247b3e-f1ac-441d-9f03-fbf159fd0934)
---------------------------------------------
+
+
+Imagine an operating system that combines elegance, performance and user friendly experience, where your computer becomes a canvas for your digital creations. AxOS achieves just that with its use of the KDE Plasma desktop environement knoM. It's as sleek and efficient as a Parisian café, offering a truly unique computing experience.
+
+Features:
+* **Simplicity with Style:** The user interface is as clean and elegant. Say goodbye to clutter and hello to productivity.
+* **Blazing-Fast Performance:** AxOS is designed to make your hardware sing.!
+* **User friendly:** AxOS uses the KDE Plasma environement. It will be easy to use, and you won't need to use command lines thanks to preinstalled app store and must-have apps.
+
+**What is the future of AxOS ?** For now, i'm doing how i can to make a good usable OS. The objective is to integrate AI to the system, in order to help you with anything and to be fully independant. AxOS will be one the first AI boosted OS !
+
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+> [!WARNING]
+> AxOS is still in testing ! you will possibly encounter bugs
+> I need reviews and feedbacks, else i don't know what to do !
+
+### Prerequisites
+
+THere is what you will need to install and use proprely AxOS:
+* **A usb key** (or another external drive) of minimum **4gb** in order to install AxOS.
+* **Risk acceptence** (AxOS Awesome is still in testing, don't blame me if you pc is nuked !)
+
+
+### Installation
+
+AxOS can be installed like every other linux distributions:
+1. Get the ISO
+2. Flash your drive with the ISO
+3. Boot on your ISO
+4. You know what's next (or not, but you will see)
+
+
+
+
+
+<!-- Todo -->
+## Todo
+
+- [ ] Fix a lot of bugs
+- [x] clean the ISO
+- [ ] wait for feedbacks
+- [ ] Add AI (later)
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions (or feedbacks) you make are **VERY appreciated**.
+
+If you have a suggestion that would make AxOS better, please create a <a href="https://github.com/AxOS-project/AxOS/discussions">discussion</a>. You can also simply open an issue.
+Don't forget to give the project a star! Thanks again!
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the GNU Public License. See `LICENSE.txt` for more information.
+
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Ardox (me) -  lvardox@proton.me
+
+Project Link: You are at
+Project Website: https://axos-project.github.io/
