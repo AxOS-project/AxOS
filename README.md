@@ -95,7 +95,7 @@ Features:
 
 THere is what you will need to install and use proprely AxOS:
 * **A usb key** (or another external drive) of minimum **4gb** in order to install AxOS.
-* **Risk acceptence** (AxOS Awesome is still in testing, don't blame me if you pc is nuked !)
+* **Risk acceptence** (AxOS is still in testing, don't blame me if you pc is nuked !)
 
 
 ### Installation
