@@ -30,8 +30,10 @@
     <a href="https://github.com/axos-project/AxOS/issues">Report Bug</a>
     ·
     <a href="https://github.com/AxOS-project/AxOS/discussions">Request Feature</a>
-    .
+    ·
     <a href="https://github.com/axos-project/AxOS/releases/">Download</a>
+    ·
+    <a href="https://axos-1.gitbook.io/">Wiki</a>
     <br />
     <br />
   </p>
