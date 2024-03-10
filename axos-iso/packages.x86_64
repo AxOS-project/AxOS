@@ -29,6 +29,7 @@ espeakup
 ethtool
 exfatprogs
 f2fs-tools
+fakeroot
 fatresize
 foot-terminfo
 fsarchiver
@@ -37,7 +38,7 @@ gpart
 gpm
 gptfdisk
 grml-zsh-config
-grub
+#grub
 hdparm
 hyperv
 intel-ucode
@@ -84,6 +85,7 @@ openconnect
 openpgp-card-tools
 openssh
 openvpn
+os-prober
 partclone
 parted
 partimage
@@ -146,34 +148,29 @@ packagekit-qt5
 neofetch
 ark
 firefox
-arduino
-bleachbit
 cmake
 discover
-filelight
-kvantum
 print-manager
 kdeconnect
-vlc
 python
 partitionmanager
 kcalc
-libreoffice-fresh
 kcolorchooser
 kcharselect
-kompare
 skanlite
 sddm
 bash-completion
 networkmanager
-pulseaudio
+pipewire-pulse
 papirus-icon-theme
+plasma-nm
+kdialog
+make
 
 #Installer
 
 alci-calamares
-alci-calamares-config
-os-prober
+#alci-calamares-config
 xterm
 
 #AxOS packages
@@ -182,8 +179,11 @@ about-axos
 axskel
 axos-hooks
 axos-hooks-extra
-axos-backgrounds
+plymouth-theme-axos
+calamares-config-axos
 
+axos/grub
+axos/plymouth
 
 ##### Drivers for GPU
 
