@@ -134,7 +134,7 @@ zsh
 
 #AxOS GUI KDE Plasma
 
-plasma
+plasma-desktop
 xorg
 
 #System Utilities for AxOS
@@ -151,13 +151,8 @@ firefox
 cmake
 discover
 print-manager
-kdeconnect
 python
 partitionmanager
-kcalc
-kcolorchooser
-kcharselect
-skanlite
 sddm
 bash-completion
 networkmanager
@@ -191,6 +186,6 @@ xf86-video-intel
 xf86-video-amdgpu
 xf86-video-nouveau
 
-nvidia
-nvidia-settings
-nvidia-utils
+#nvidia
+#nvidia-settings
+#nvidia-utils
