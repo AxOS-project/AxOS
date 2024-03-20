@@ -164,8 +164,9 @@ make
 
 #Installer
 
-alci-calamares
+#alci-calamares
 #alci-calamares-config
+calamares-git
 xterm
 
 #AxOS packages
