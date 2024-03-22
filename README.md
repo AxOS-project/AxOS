@@ -40,8 +40,8 @@
 </div>
 
 
-> [!NOTE]
-> There is no ISO for now, but i'll upload the 24.02 version soon
+> [!IMPORTANT]
+> I need feedbacks! i cannot improve AxOS without it!
 
 <!-- TABLE OF CONTENTS -->
 <details>
