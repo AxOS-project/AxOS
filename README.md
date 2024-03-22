@@ -90,8 +90,6 @@ Features:
 
 THere is what you will need to install and use proprely AxOS:
 * **A usb key** (or another external drive) of minimum **4gb** in order to install AxOS.
-* **Risk acceptence** (AxOS is still in testing, don't blame me if you pc is nuked !)
-
 
 ### Installation
 
@@ -99,7 +97,8 @@ AxOS can be installed like every other linux distributions:
 1. Get the ISO
 2. Flash your drive with the ISO
 3. Boot on your ISO
-4. You know what's next (or not, but you will see)
+4. Open system installer app
+5. You know what's next (or not, but you will see)
 
 
 
