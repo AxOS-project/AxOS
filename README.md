@@ -113,11 +113,8 @@ AxOS can be installed like every other linux distributions:
 <!-- Todo -->
 ## Todo
 
-- [ ] Fix a lot of bugs
-- [x] clean the ISO
 - [ ] wait for feedbacks
 - [ ] Add AI (later)
-- [ ] remove that ugly arch plymouth theme
 
 
 <!-- CONTRIBUTING -->
