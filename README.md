@@ -86,11 +86,6 @@ Features:
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-> [!WARNING]
-> AxOS is still in testing ! you will possibly encounter bugs
-> I need reviews and feedbacks, else i don't know what to do !
-
 ### Prerequisites
 
 THere is what you will need to install and use proprely AxOS:
