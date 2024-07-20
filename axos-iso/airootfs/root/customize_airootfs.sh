@@ -23,6 +23,7 @@ sed -i '/^hosts:/ {
   [[ -e /usr/lib/systemd/system/cups.service                 ]] && systemctl enable cups.service;
   [[ -e /usr/lib/systemd/system/smb.service                  ]] && systemctl enable smb.service;
   [[ -e /usr/lib/systemd/system/winbind.service              ]] && systemctl enable winbind.service;
+  [[ -e /usr/lib/systemd/system/ntpd.service 	             ]] && systemctl enable ntpd.service;
 } > /dev/null 2>&1
 
 # Set sddm display-manager
