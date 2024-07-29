@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
+# shellcheck disable=SC2034
 
 iso_name="AxOS"
-iso_label="AxOS"
 iso_publisher="Ardox <@levraiardox>"
 iso_application="AxOS Live/Rescue CD"
-iso_version="24.06" #$(date +%y.%m)
+iso_version="$(date +%y.%m)"
+iso_label="AxOS"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'

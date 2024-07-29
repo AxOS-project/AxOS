@@ -122,7 +122,6 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
-virtualbox-guest-utils-nox
 vpnc
 #wezterm-terminfo
 wireless-regdb
@@ -159,16 +158,25 @@ sddm
 bash-completion
 networkmanager
 pipewire-pulse
-papirus-icon-theme
+deepin-icon-theme
 plasma-nm
 kdialog
 make
+inxi
+wps-office
+elisa
+kscreen
+power-profiles-daemon
+fwupd
+bluez-qt
+plasma-pa
+sddm-theme-deepin-git
 
 #Installer
 
 #alci-calamares
 #alci-calamares-config
-calamares-git
+axos/calamares-git
 xterm
 
 #AxOS packages
@@ -191,7 +199,11 @@ xf86-video-intel
 xf86-video-amdgpu
 xf86-video-nouveau
 
+virtualbox-guest-utils
+
 nvidia
 nvidia-settings
 nvidia-utils
 
+mesa
+mesa-utils
