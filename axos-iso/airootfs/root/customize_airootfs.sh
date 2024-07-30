@@ -23,6 +23,7 @@ sed -i '/^hosts:/ {
   [[ -e /usr/lib/systemd/system/cups.service                 ]] && systemctl enable cups.service;
   [[ -e /usr/lib/systemd/system/smb.service                  ]] && systemctl enable smb.service;
   [[ -e /usr/lib/systemd/system/winbind.service              ]] && systemctl enable winbind.service;
+  [[ -e /usr/lib/systemd/system/ntpd.service 	             ]] && systemctl enable ntpd.service;
 } > /dev/null 2>&1
 
 # Set sddm display-manager
@@ -32,6 +33,6 @@ ln -s /usr/lib/systemd/system/sddm.service /etc/systemd/system/display-manager.s
 # * groups member
 # * user without password
 # * sudo no password settings
-useradd -m -G 'wheel' -s /bin/zsh live
+useradd -m -G 'wheel' -s /bin/bash live
 sed -i 's/^\(live:\)!:/\1:/' /etc/shadow
 sed -i 's/^#\s\(%wheel\s.*NOPASSWD\)/\1/' /etc/sudoers

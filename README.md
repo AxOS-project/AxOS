@@ -24,7 +24,7 @@
   <p align="center">
     The Linux experience, enhanced.
     <br />
-    <a href="https://axos-project.github.io"><strong>Website »</strong></a>
+    <a href="http://axos-project.com"><strong>Website</strong></a>
     <br />
     <br />
     <a href="https://github.com/axos-project/AxOS/issues">Report Bug</a>
@@ -68,7 +68,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![Screenshot_20240222_193935](https://github.com/AxOS-project/AxOS/assets/110931544/307c0186-d5c5-419f-863f-8d099e3dab64)
+![Screenshot](.github/screenshot.png)
 
 
 
@@ -102,15 +102,6 @@ AxOS can be installed like every other linux distributions:
 
 
 
-
-
-<!-- Todo -->
-## Todo
-
-- [ ] wait for feedbacks
-- [ ] Add AI (later)
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -132,7 +123,7 @@ Distributed under the GNU Public License. See `LICENSE.txt` for more information
 <!-- CONTACT -->
 ## Contact
 
-Ardox (me) -  lvardox@proton.me
+Ardox (me) -  ardox@axos-project.com
 
 Project Link: You are at
-Project Website: https://axos-project.github.io/
+Project Website: http://axos-project.com/

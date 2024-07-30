@@ -1,9 +1,11 @@
+##### Base packages
 alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
 b43-fwcutter
 base
+bash
 bcachefs-tools
 bind
 bolt
@@ -78,6 +80,7 @@ nfs-utils
 nilfs-utils
 nmap
 ntfs-3g
+ntp
 nvme-cli
 open-iscsi
 open-vm-tools
@@ -121,9 +124,8 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
-virtualbox-guest-utils-nox
 vpnc
-wezterm-terminfo
+#wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -132,62 +134,82 @@ xfsprogs
 xl2tpd
 zsh
 
-#AxOS GUI KDE Plasma
-
-plasma-desktop
-xorg
-
-#System Utilities for AxOS
-
-konsole
-kate
-kinfocenter
-dolphin
+##### System Utilities
 xdg-user-dirs
-spectacle
 packagekit-qt5
 neofetch
-ark
 firefox
 cmake
-discover
-print-manager
 python
-partitionmanager
 sddm
 bash-completion
 networkmanager
 pipewire-pulse
-papirus-icon-theme
-plasma-nm
-kdialog
+deepin-icon-theme
 make
+inxi
+wps-office
+power-profiles-daemon
+fwupd
+bluez-qt
+sddm-theme-deepin-git
 
-#Installer
+##### KDE packages
+plasma-desktop
+xorg
+okular
+ark
+plasma-systemmonitor
+kate
+gwenview
+spectacle
+kdeconnect
+discover
+filelight
+kcalc
+partitionmanager
+kamoso
+kclock
+kalarm
+kontact
+kweather
+kwrite
+plasma-pa
+kscreen
+elisa
+kdialog
+plasma-nm
+print-manager
+dolphin
+kinfocenter
+konsole
 
-#alci-calamares
-#alci-calamares-config
-calamares-git
+##### Installer
+axos/calamares-git
 xterm
 
-#AxOS packages
-
+##### AxOS packages
 about-axos
 axskel
 axos-hooks
 axos-hooks-extra
 plymouth-theme-axos
 calamares-config-axos
+#axos-nf
 
 axos/grub
 axos/plymouth
 
 ##### Drivers for GPU
-
 xf86-video-intel
 xf86-video-amdgpu
 xf86-video-nouveau
 
-#nvidia
-#nvidia-settings
-#nvidia-utils
+virtualbox-guest-utils
+
+nvidia
+nvidia-settings
+nvidia-utils
+
+mesa
+mesa-utils

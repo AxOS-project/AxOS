@@ -1,5 +1,21 @@
 # Changelog
 
+
+---
+
+**24.08**
+
+- New style
+- Stability updates
+- New sddm theme
+- Fixed calamares slideshow
+- Added more kde options
+- fixed NTP error
+- Showing "*" when sudo password is typed
+- Added more graphic drivers
+- New bash PS1
+
+
 ---
 
 **24.03**
