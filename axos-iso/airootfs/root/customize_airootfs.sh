@@ -33,6 +33,6 @@ ln -s /usr/lib/systemd/system/sddm.service /etc/systemd/system/display-manager.s
 # * groups member
 # * user without password
 # * sudo no password settings
-useradd -m -G 'wheel' -s /bin/zsh live
+useradd -m -G 'wheel' -s /bin/bash live
 sed -i 's/^\(live:\)!:/\1:/' /etc/shadow
 sed -i 's/^#\s\(%wheel\s.*NOPASSWD\)/\1/' /etc/sudoers

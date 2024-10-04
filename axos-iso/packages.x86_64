@@ -1,9 +1,11 @@
+##### Base packages
 alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
 b43-fwcutter
 base
+bash
 bcachefs-tools
 bind
 bolt
@@ -132,55 +134,61 @@ xfsprogs
 xl2tpd
 zsh
 
-#AxOS GUI KDE Plasma
-
-plasma-desktop
-xorg
-
-#System Utilities for AxOS
-
-konsole
-kate
-kinfocenter
-dolphin
+##### System Utilities
 xdg-user-dirs
-spectacle
 packagekit-qt5
 neofetch
-ark
 firefox
 cmake
-discover
-print-manager
 python
-partitionmanager
 sddm
 bash-completion
 networkmanager
 pipewire-pulse
 deepin-icon-theme
-plasma-nm
-kdialog
 make
 inxi
 wps-office
-elisa
-kscreen
 power-profiles-daemon
 fwupd
 bluez-qt
-plasma-pa
 sddm-theme-deepin-git
 
-#Installer
+##### KDE packages
+plasma-desktop
+xorg
+okular
+ark
+plasma-systemmonitor
+kate
+gwenview
+spectacle
+kdeconnect
+discover
+filelight
+kcalc
+partitionmanager
+kamoso
+kclock
+kalarm
+kontact
+kweather
+kwrite
+plasma-pa
+kscreen
+elisa
+kdialog
+plasma-nm
+print-manager
+dolphin
+kinfocenter
+konsole
 
-#alci-calamares
-#alci-calamares-config
+##### Installer
 axos/calamares-git
 xterm
 
-#AxOS packages
-
+##### AxOS packages
 about-axos
 axskel
 axos-hooks
@@ -191,10 +199,8 @@ calamares-config-axos
 
 axos/grub
 axos/plymouth
-axos/bash
 
 ##### Drivers for GPU
-
 xf86-video-intel
 xf86-video-amdgpu
 xf86-video-nouveau
