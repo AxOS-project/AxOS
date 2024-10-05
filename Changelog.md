@@ -1,5 +1,14 @@
 # Changelog
 
+---
+
+**24.10**
+
+- New lockscreen style
+- Stability updates
+- Fixed calamares core dump
+- Fixed login failed bug
+
 
 ---
 

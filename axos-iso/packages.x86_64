@@ -152,7 +152,7 @@ wps-office
 power-profiles-daemon
 fwupd
 bluez-qt
-sddm-theme-deepin-git
+sddm-theme-chili
 
 ##### KDE packages
 plasma-desktop
