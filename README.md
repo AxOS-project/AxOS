@@ -1,17 +1,6 @@
 <a name="readme-top"></a>
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
--->
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -68,7 +57,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![Screenshot](.github/screenshot.png)
+![Screenshot_20241112_195536](https://github.com/user-attachments/assets/e6f79b78-4d45-4dd6-bf66-3bb0e2338588)
+
 
 
 
@@ -126,4 +116,4 @@ Distributed under the GNU Public License. See `LICENSE.txt` for more information
 Ardox (me) -  ardox@axos-project.com
 
 Project Link: You are at
-Project Website: http://axos-project.com/
+Project Website: https://axos-project.com/
