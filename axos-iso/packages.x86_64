@@ -161,6 +161,7 @@ axskel
 axos-hooks
 axos-hooks-extra
 #axos-nf
+plymouth-theme-axos
 
 axos/grub
 axos/plymouth
