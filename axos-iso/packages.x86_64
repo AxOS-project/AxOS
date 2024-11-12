@@ -35,12 +35,10 @@ fakeroot
 fatresize
 foot-terminfo
 fsarchiver
-gnu-netcat
 gpart
 gpm
 gptfdisk
 grml-zsh-config
-#grub
 hdparm
 hyperv
 intel-ucode
@@ -55,9 +53,7 @@ lftp
 libfido2
 libusb-compat
 linux
-linux-atm
 linux-firmware
-linux-firmware-marvell
 livecd-sounds
 lsscsi
 lvm2
@@ -125,7 +121,6 @@ usbmuxd
 usbutils
 vim
 vpnc
-#wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -135,66 +130,36 @@ xl2tpd
 zsh
 
 ##### System Utilities
-xdg-user-dirs
-packagekit-qt5
 neofetch
 firefox
-cmake
-python
 sddm
 bash-completion
 networkmanager
 pipewire-pulse
 deepin-icon-theme
-make
 inxi
-wps-office
 power-profiles-daemon
-fwupd
-bluez-qt
 sddm-theme-chili
 
 ##### KDE packages
-plasma-desktop
+plasma
 xorg
-okular
-ark
-plasma-systemmonitor
-kate
-gwenview
-spectacle
-kdeconnect
-discover
 filelight
-kcalc
 partitionmanager
-kamoso
-kclock
-kalarm
-kontact
-kweather
 kwrite
-plasma-pa
-kscreen
-elisa
 kdialog
-plasma-nm
-print-manager
 dolphin
-kinfocenter
 konsole
 
 ##### Installer
-axos/calamares-git
-xterm
+axinstall
+axinstall-cli
 
 ##### AxOS packages
 about-axos
 axskel
 axos-hooks
 axos-hooks-extra
-plymouth-theme-axos
-calamares-config-axos
 #axos-nf
 
 axos/grub
@@ -207,9 +172,6 @@ xf86-video-nouveau
 
 virtualbox-guest-utils
 
-nvidia
-nvidia-settings
-nvidia-utils
-
-mesa
-mesa-utils
+##### Chaotic
+chaotic-keyring
+chaotic-mirrorlist

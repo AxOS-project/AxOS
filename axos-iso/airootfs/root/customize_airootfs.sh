@@ -4,7 +4,7 @@
 
 set -e -u
 
-sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
+sed -i -E '/^# *(en_US|en_GB|de_DE|fr_FR|es_ES|it_IT|pt_PT|pt_BR|zh_CN|zh_TW|ja_JP|ko_KR|ru_RU|nl_NL|sv_SE|da_DK|fi_FI|nb_NO|pl_PL)/ s/^# *//' /etc/locale.gen # Main languages
 locale-gen
 
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
@@ -26,8 +26,9 @@ sed -i '/^hosts:/ {
   [[ -e /usr/lib/systemd/system/ntpd.service 	             ]] && systemctl enable ntpd.service;
 } > /dev/null 2>&1
 
-# Set sddm display-manager
-ln -s /usr/lib/systemd/system/sddm.service /etc/systemd/system/display-manager.service
+# Enable sddm display-manager
+# ln -s /usr/lib/systemd/system/sddm.service /etc/systemd/system/display-manager.service
+systemctl enable sddm.service
 
 # Add live user
 # * groups member
@@ -36,3 +37,10 @@ ln -s /usr/lib/systemd/system/sddm.service /etc/systemd/system/display-manager.s
 useradd -m -G 'wheel' -s /bin/bash live
 sed -i 's/^\(live:\)!:/\1:/' /etc/shadow
 sed -i 's/^#\s\(%wheel\s.*NOPASSWD\)/\1/' /etc/sudoers
+
+# Pacman keys
+pacman-key --init
+pacman-key --populate archlinux
+
+# Set root password
+echo "root:root" | chpasswd # Change root password to 'root'
