@@ -140,6 +140,10 @@ deepin-icon-theme
 inxi
 power-profiles-daemon
 sddm-theme-chili
+packagekit
+packagekit-qt6
+gnome-packagekit
+
 
 ##### KDE packages
 plasma
@@ -162,6 +166,7 @@ axos-hooks
 axos-hooks-extra
 #axos-nf
 plymouth-theme-axos
+epsilon
 
 axos/grub
 axos/plymouth
