@@ -136,13 +136,13 @@ sddm
 bash-completion
 networkmanager
 pipewire-pulse
-deepin-icon-theme
 inxi
 power-profiles-daemon
 sddm-theme-chili
 packagekit
 packagekit-qt6
 gnome-packagekit
+papirus-icon-theme
 
 
 ##### KDE packages
