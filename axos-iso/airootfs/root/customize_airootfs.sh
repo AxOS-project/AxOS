@@ -2,6 +2,8 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
+# DO NOT EXECUTE UNLESS YOU KNOW WHAT YOU ARE DOING !!!
+
 set -e -u
 
 sed -i -E '/^# *(en_US|en_GB|de_DE|fr_FR|es_ES|it_IT|pt_PT|pt_BR|zh_CN|zh_TW|ja_JP|ko_KR|ru_RU|nl_NL|sv_SE|da_DK|fi_FI|nb_NO|pl_PL)/ s/^# *//' /etc/locale.gen # Main languages
