@@ -1,6 +1,21 @@
 # Changelog
 
 ---
+**24.12**
+- New icon theme
+- Warning message when running on a virtual machine
+- Package updates
+
+---
+**24.11**
+- Unification of the editions
+- Added kernel choice in the installer
+- Calla takes the place of Awesome
+- The beta of Hypr edition will be available (note that is is currently unstable)
+- New preinstalled apps will be included to the Plasma Edition.
+
+
+---
 
 **24.10**
 
