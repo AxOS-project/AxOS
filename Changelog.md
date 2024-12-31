@@ -1,6 +1,12 @@
 # Changelog
 
 ---
+**25.01 (unfinished)**
+- Grub theme
+
+---
+
+---
 **24.12**
 - New icon theme
 - Warning message when running on a virtual machine
