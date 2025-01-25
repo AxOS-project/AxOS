@@ -1,8 +1,10 @@
 # Changelog
 
 ---
-**25.01 (unfinished)**
-- Grub theme
+**25.01**
+- New grub theme
+- Replaced Hypr with Sleex (basically the same thing)
+- Updated base packages
 
 ---
 
