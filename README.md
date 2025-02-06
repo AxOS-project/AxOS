@@ -58,7 +58,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 ![Screenshot_20241112_195536](https://github.com/user-attachments/assets/e6f79b78-4d45-4dd6-bf66-3bb0e2338588)
-
+![image](https://github.com/user-attachments/assets/68f7f221-afcb-479f-a027-21dceda67ae5)
+![image](https://github.com/user-attachments/assets/4f54654f-17ee-40de-a38f-90e7cc9828ea)
 
 
 
