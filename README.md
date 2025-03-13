@@ -22,7 +22,7 @@
     ·
     <a href="https://github.com/axos-project/AxOS/releases/">Download</a>
     ·
-    <a href="https://axos-1.gitbook.io/">Wiki</a>
+    <a href="https://axos-project.com/docs/">Wiki</a>
     <br />
     <br />
   </p>
@@ -56,42 +56,6 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-![image](https://github.com/user-attachments/assets/262bf33d-8b8d-4331-8994-1e6b1a37dd8f)
-![image](https://github.com/user-attachments/assets/68f7f221-afcb-479f-a027-21dceda67ae5)
-![image](https://github.com/user-attachments/assets/4f54654f-17ee-40de-a38f-90e7cc9828ea)
-
-
-
-Imagine an operating system that combines elegance, performance and user friendly experience, where your computer becomes a canvas for your digital creations. AxOS achieves just that with its use of the KDE Plasma desktop environement knoM. It's as sleek and efficient as a Parisian café, offering a truly unique computing experience.
-
-Features:
-* **Simplicity with Style:** The user interface is as clean and elegant. Say goodbye to clutter and hello to productivity.
-* **Blazing-Fast Performance:** AxOS is designed to make your hardware sing.!
-* **User friendly:** AxOS uses the KDE Plasma environement. It will be easy to use, and you won't need to use command lines thanks to preinstalled app store and must-have apps.
-
-**What is the future of AxOS ?** For now, i'm doing how i can to make a good usable OS. The objective is to integrate AI to the system, in order to help you with anything and to be fully independant. AxOS will be one the first AI boosted OS !
-
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-### Prerequisites
-
-THere is what you will need to install and use proprely AxOS:
-* **A usb key** (or another external drive) of minimum **4gb** in order to install AxOS.
-
-### Installation
-
-AxOS can be installed like every other linux distributions:
-1. Get the ISO
-2. Flash your drive with the ISO
-3. Boot on your ISO
-4. Open system installer app
-5. You know what's next (or not, but you will see)
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -102,13 +66,10 @@ If you have a suggestion that would make AxOS better, please create a <a href="h
 Don't forget to give the project a star! Thanks again!
 
 
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the GNU Public License. See `LICENSE.txt` for more information.
-
-
 
 
 <!-- CONTACT -->
