@@ -146,14 +146,18 @@ virt-what
 
 
 ##### KDE packages
-plasma
-xorg
-filelight
-partitionmanager
-kwrite
-kdialog
-dolphin
-konsole
+#plasma
+#xorg
+#filelight
+#partitionmanager
+#kwrite
+#kdialog
+#dolphin
+#konsole
+
+##### Sleex packages
+sleex
+hyprland-git
 
 ##### Installer
 axinstall
@@ -167,6 +171,8 @@ axos-hooks-extra
 #axos-nf
 plymouth-theme-axos
 epsilon
+axuralis
+axctl
 
 axos/grub
 axos/plymouth
