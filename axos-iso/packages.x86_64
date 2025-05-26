@@ -157,7 +157,7 @@ virt-what
 
 ##### Sleex packages
 sleex
-hyprland-git
+hyprland
 
 ##### Installer
 axinstall
@@ -182,7 +182,7 @@ xf86-video-intel
 xf86-video-amdgpu
 xf86-video-nouveau
 
-virtualbox-guest-utils
+xf86-video-vmware
 
 ##### Chaotic
 chaotic-keyring
