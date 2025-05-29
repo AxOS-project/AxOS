@@ -137,7 +137,7 @@ networkmanager
 pipewire-pulse
 inxi
 power-profiles-daemon
-sddm-theme-chili
+sddm-theme-axos
 packagekit
 packagekit-qt6
 gnome-packagekit
@@ -146,14 +146,18 @@ virt-what
 
 
 ##### KDE packages
-plasma
-xorg
-filelight
-partitionmanager
-kwrite
-kdialog
-dolphin
-konsole
+#plasma
+#xorg
+#filelight
+#partitionmanager
+#kwrite
+#kdialog
+#dolphin
+#konsole
+
+##### Sleex packages
+sleex
+hyprland
 
 ##### Installer
 axinstall
@@ -167,6 +171,8 @@ axos-hooks-extra
 #axos-nf
 plymouth-theme-axos
 epsilon
+axuralis
+axctl
 
 axos/grub
 axos/plymouth
@@ -176,8 +182,9 @@ xf86-video-intel
 xf86-video-amdgpu
 xf86-video-nouveau
 
-virtualbox-guest-utils
+xf86-video-vesa
 
 ##### Chaotic
 chaotic-keyring
 chaotic-mirrorlist
+
