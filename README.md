@@ -48,6 +48,11 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the GNU Public License. See `LICENSE.txt` for more information.
 
+<!-- Versioning -->
+
+## Versioning
+
+AxOS uses **Calendar Versioning (CalVer)** in the format `YY.MM` (e.g. `25.06` for June 2025).
 
 <!-- CONTACT -->
 ## Contact
