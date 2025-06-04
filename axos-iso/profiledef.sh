@@ -25,4 +25,5 @@ file_permissions=(
   ["/usr/local/bin/alci-displaymanager-check"]="0:0:755"
   ["/usr/local/bin/vm-detector"]="0:0:755"
   ["/usr/local/bin/vm-detector.sh"]="0:0:755"
+  ["/etc/secureboot-setup.sh"]="0:0:755"
 )
