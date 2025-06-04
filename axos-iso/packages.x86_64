@@ -187,9 +187,3 @@ xf86-video-vesa
 ##### Chaotic
 chaotic-keyring
 chaotic-mirrorlist
-
-##### Secure boot stuff
-sbsigntools
-efitools
-openssl
-shim-signed

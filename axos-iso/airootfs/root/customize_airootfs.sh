@@ -49,6 +49,3 @@ echo "root:root" | chpasswd # Change root password to 'root'
 
 # Autostart installer
 echo "exec-once = axinstall" >> /home/live/.config/hypr/custom/execs.conf
-
-# Secure boot setup
-/etc/secureboot-setup.sh
