@@ -29,8 +29,9 @@
 </div>
 
 
-> [!IMPORTANT]
-> I need feedbacks! i cannot improve AxOS without it!
+> [!CAUTION]
+> NVIDIA support is **very** experimental. If you install, expect bugs.
+> **Reports and fixes are very appreciated**.
 
 <!-- ABOUT THE PROJECT -->
 
