@@ -32,6 +32,10 @@ sed -i '/^hosts:/ {
 # ln -s /usr/lib/systemd/system/sddm.service /etc/systemd/system/display-manager.service
 systemctl enable sddm.service
 
+# Nvidia env in hypr cfg
+echo "env = LIBVA_DRIVER_NAME,nvidia" >> /etc/skel/.config/hypr/custom/env.conf
+echo "env = __GLX_VENDOR_LIBRARY_NAME,nvidia" >> /etc/skel/.config/hypr/custom/env.conf
+
 # Add live user
 # * groups member
 # * user without password
