@@ -129,7 +129,7 @@ xl2tpd
 zsh
 
 ##### System Utilities
-neofetch
+fastfetch
 firefox
 sddm
 bash-completion
