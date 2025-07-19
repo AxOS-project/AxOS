@@ -129,7 +129,7 @@ xl2tpd
 zsh
 
 ##### System Utilities
-neofetch
+fastfetch
 firefox
 sddm
 bash-completion
@@ -148,16 +148,16 @@ virt-what
 ##### KDE packages
 #plasma
 #xorg
-#filelight
-#partitionmanager
-#kwrite
+filelight
+partitionmanager
+kwrite
 #kdialog
-#dolphin
+dolphin
 #konsole
 
 ##### Sleex packages
 sleex
-hyprland
+sleex-user-config
 
 ##### Installer
 axinstall
@@ -165,13 +165,10 @@ axinstall-cli
 
 ##### AxOS packages
 about-axos
-axskel
 axos-hooks
 axos-hooks-extra
-#axos-nf
 plymouth-theme-axos
 epsilon
-axuralis
 axctl
 
 axos/grub
