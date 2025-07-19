@@ -1,0 +1,9 @@
+#!/bin/bash
+
+run_hook() {
+    if [[ ! -d /sys/firmware/efi ]]; then
+        echo "You booted without UEFI. AxOS doesn’t like that. Rebooting in shame..."
+        sleep 5
+        reboot -f
+    fi
+}
