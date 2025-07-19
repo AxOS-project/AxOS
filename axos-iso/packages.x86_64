@@ -53,6 +53,7 @@ lftp
 libfido2
 libusb-compat
 linux
+linux-headers
 linux-firmware
 livecd-sounds
 lsscsi
@@ -180,6 +181,11 @@ xf86-video-amdgpu
 xf86-video-nouveau
 
 xf86-video-vesa
+
+nvidia
+nvidia-utils
+nvidia-dkms
+libglvnd
 
 ##### Chaotic
 chaotic-keyring
