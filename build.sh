@@ -408,8 +408,9 @@ _make_customize_airootfs() {
         rm -- "${pacstrap_dir}/root/customize_airootfs.sh"
         _msg_info "Done! customize_airootfs.sh run successfully."
     fi
+    
     # Build NVIDIA initramfs with extra modules
-    if ! mkinitcpio -C "${profile}/mkinitcpio-nvidia.conf" -g "${isofs_dir}/arch/boot/${arch}/initramfs-linux-nvidia.img"; then
+    if ! arch-chroot "${pacstrap_dir}" mkinitcpio -p linux-nvidia; then
         echo "Error: Failed to build NVIDIA initramfs"
         return 1
     fi

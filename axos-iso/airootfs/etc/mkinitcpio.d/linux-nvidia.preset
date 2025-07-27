@@ -1,0 +1,5 @@
+PRESETS=('nvidia')
+ALL_kver='/boot/vmlinuz-linux'
+
+nvidia_image='/boot/initramfs-linux-nvidia.img'
+nvidia_options="-c /etc/mkinitcpio-nvidia.conf"
