@@ -26,11 +26,3 @@ file_permissions=(
   ["/usr/local/bin/vm-detector"]="0:0:755"
   ["/usr/local/bin/vm-detector.sh"]="0:0:755"
 )
-
-make_customize_airootfs() {
-  # Build the default initramfs (this happens automatically anyway, but include for clarity)
-  mkinitcpio -C "${profile}/mkinitcpio.conf" -g "/boot/initramfs-linux.img"
-
-  # Build NVIDIA initramfs with extra modules
-  mkinitcpio -C "${profile}/mkinitcpio-nvidia.conf" -g "/boot/initramfs-linux-nvidia.img"
-}
