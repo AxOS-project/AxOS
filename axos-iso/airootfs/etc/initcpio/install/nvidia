@@ -1,0 +1,12 @@
+build() {
+    add_module "nvidia"
+    add_module "nvidia_modeset"
+    add_module "nvidia_uvm"
+    add_module "nvidia_drm"
+}
+
+help() {
+    cat <<HELPEOF
+This hook adds the NVIDIA modules to the initramfs.
+HELPEOF
+}
