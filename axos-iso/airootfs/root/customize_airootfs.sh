@@ -48,4 +48,4 @@ pacman-key --populate archlinux
 echo "root:root" | chpasswd # Change root password to 'root'
 
 # autostart the installer
-echo "exec-once = axinstall" >> /home/live/.config/hypr/custom/execs.conf
+echo "exec-once = sleep 3 && axinstall" >> /home/live/.config/hypr/custom/execs.conf
