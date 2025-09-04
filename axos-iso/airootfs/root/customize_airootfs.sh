@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+*#!/usr/bin/env bash
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
@@ -42,10 +42,11 @@ sed -i 's/^#\s\(%wheel\s.*NOPASSWD\)/\1/' /etc/sudoers
 
 # Pacman keys
 pacman-key --init
-pacman-key --populate archlinux
+pacman-key --populate
 
-# Set root password
-echo "root:root" | chpasswd # Change root password to 'root'
+# Set passwords
+echo "root:root" | chpasswd
+echo "live:live" | chpasswd
 
 # autostart the installer
 echo "exec-once = sleep 3 && axinstall" >> /home/live/.config/hypr/custom/execs.conf
