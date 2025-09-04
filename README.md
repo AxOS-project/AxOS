@@ -30,9 +30,9 @@
 
 
 > [!IMPORTANT]
-> I need feedbacks! i cannot improve AxOS without it!
+> Live password: live
 
-<!-- ABOUT THE PROJECT -->
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
