@@ -1,6 +1,7 @@
 ##### Base packages
 alsa-utils
 amd-ucode
+apparmor
 arch-install-scripts
 archinstall
 b43-fwcutter
@@ -190,4 +191,3 @@ libglvnd
 ##### Chaotic
 chaotic-keyring
 chaotic-mirrorlist
-
