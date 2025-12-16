@@ -53,7 +53,6 @@ less
 lftp
 libfido2
 libusb-compat
-linux
 linux-headers
 linux-firmware
 livecd-sounds
@@ -173,8 +172,11 @@ plymouth-theme-axos
 epsilon
 axctl
 
-axos/grub
+axos_core/linux
+axos_core/grub-efi
 axos/plymouth
+axos/shim-signed
+axos/axos-secureboot-keys
 
 ##### Drivers for GPU
 xf86-video-intel
