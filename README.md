@@ -57,7 +57,6 @@ AxOS uses **Calendar Versioning (CalVer)** in the format `YY.MM` (e.g. `25.06` f
 <!-- CONTACT -->
 ## Contact
 
-Ardox (me) -  ardox@axos-project.com
+Ardox -  ardox@axos-project.com
 
-Project Link: You are at
 Project Website: https://axos-project.com/
