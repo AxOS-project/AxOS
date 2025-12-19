@@ -586,49 +586,7 @@ _make_common_bootmode_grub_cfg() {
              s|%ARCHISO_SEARCH_FILENAME%|${search_filename}|g" \
             "${_cfg}" >"${work_dir}/grub/${_cfg##*/}"
     done
-
-    # Prepare grub.cfg that will be embedded inside the GRUB binaries
-    IFS='' read -r -d '' grubembedcfg <<'EOF' || true
-if ! [ -d "$cmdpath" ]; then
-    # On some firmware, GRUB has a wrong cmdpath when booted from an optical disc. During El Torito boot, GRUB is
-    # launched from a case-insensitive FAT-formatted EFI system partition, but it seemingly cannot access that partition
-    # and sets cmdpath to the whole cd# device which has case-sensitive ISO 9660 + Rock Ridge + Joliet file systems.
-    # See https://gitlab.archlinux.org/archlinux/archiso/-/issues/183 and https://savannah.gnu.org/bugs/?62886
-    if regexp --set=1:archiso_bootdevice '^\(([^)]+)\)\/?[Ee][Ff][Ii]\/[Bb][Oo][Oo][Tt]\/?$' "${cmdpath}"; then
-        set cmdpath="(${archiso_bootdevice})/EFI/BOOT"
-        set ARCHISO_HINT="${archiso_bootdevice}"
-    fi
-fi
-
-# Prepare a hint for the search command using the device in cmdpath
-if [ -z "${ARCHISO_HINT}" ]; then
-    regexp --set=1:ARCHISO_HINT '^\(([^)]+)\)' "${cmdpath}"
-fi
-
-# Search for the ISO volume
-if search --no-floppy --set=archiso_device --file '%ARCHISO_SEARCH_FILENAME%' --hint "${ARCHISO_HINT}"; then
-    set ARCHISO_HINT="${archiso_device}"
-    if probe --set ARCHISO_UUID --fs-uuid "${ARCHISO_HINT}"; then
-        export ARCHISO_UUID
-    fi
-else
-    echo "Could not find a volume with a '%ARCHISO_SEARCH_FILENAME%' file on it!"
-fi
-
-# Load grub.cfg
-if [ "${ARCHISO_HINT}" == 'memdisk' -o -z "${ARCHISO_HINT}" ]; then
-    echo 'Could not find the ISO volume!'
-elif [ -e "(${ARCHISO_HINT})/boot/grub/grub.cfg" ]; then
-    export ARCHISO_HINT
-    set root="${ARCHISO_HINT}"
-    configfile "(${ARCHISO_HINT})/boot/grub/grub.cfg"
-else
-    echo "File '(${ARCHISO_HINT})/boot/grub/grub.cfg' not found!"
-fi
-EOF
-    grubembedcfg="${grubembedcfg//'%ARCHISO_SEARCH_FILENAME%'/"${search_filename}"}"
-    printf '%s\n' "$grubembedcfg" >"${work_dir}/grub-embed.cfg"
-
+    
     # Write grubenv
     printf '%.1024s' \
         "$(printf '# GRUB Environment Block\nNAME=%s\nVERSION=%s\nARCHISO_LABEL=%s\nINSTALL_DIR=%s\nARCH=%s\nARCHISO_SEARCH_FILENAME=%s\n%s' \
@@ -669,51 +627,29 @@ _make_common_grubenv_and_loopbackcfg() {
     fi
 }
 
-# Prepare GRUB
+# Prepare GRUB & Shim-Signed
+# ~ Adapted for AxOS
 _make_bootmode_uefi.grub() {
-    local grub_target grubmodules=() files_to_copy=()
+    local grub_target grubmodules=() files_to_copy=() 
+    local shim_efi grub_efi
+    shim_efi="${pacstrap_dir}/usr/share/shim-signed/shimx64.efi"
+    shim_mok="${pacstrap_dir}/usr/share/shim-signed/mmx64.efi"
+    grub_efi="${pacstrap_dir}/usr/lib/grub/x86_64-efi-signed/grubx64-archiso.efi"
 
-    _msg_info "Setting up GRUB for UEFI booting..."
+    _msg_info "Setting up GRUB & Shim-Signed for UEFI booting..."
 
-    # Get GRUB-specific architecture name
-    case "$arch" in
-        'aarch64') grub_target='arm64-efi' ;;
-        *) grub_target="${arch}-efi" ;;
-    esac
+    # Throw error on any architecture other than x86_64
+    if [[ "$arch" != 'x86_64' ]]; then
+        _msg_error "Validating '${arch}': AxOS does not support the '${arch}' architecture! Expected x86_64 architecture." 0
+    fi
 
     # Prepare configuration files
     _run_once _make_common_bootmode_grub_cfg
 
-    # Create EFI binary
-    # Module list from https://bugs.archlinux.org/task/71382#comment202911
-    grubmodules=(all_video at_keyboard boot btrfs cat chain configfile echo efifwsetup efinet exfat ext2 f2fs fat font \
-                 gfxmenu gfxterm gzio halt hfsplus iso9660 jpeg keylayouts linux loadenv loopback lsefi lsefimmap \
-                 minicmd normal ntfs ntfscomp part_apple part_gpt part_msdos png read reboot regexp search \
-                 search_fs_file search_fs_uuid search_label serial sleep tpm udf usb usbserial_common usbserial_ftdi \
-                 usbserial_pl2303 usbserial_usbdebug video xfs zstd)
-    grub-mkstandalone -O "$grub_target" \
-        --modules="${grubmodules[*]}" \
-        --locales="en@quot" \
-        --themes="" \
-        --sbat=/usr/share/grub/sbat.csv \
-        --disable-shim-lock \
-        -o "${work_dir}/BOOT${uefi_arch[$arch]}.EFI" "boot/grub/grub.cfg=${work_dir}/grub-embed.cfg"
-    # Add GRUB to the list of files used to calculate the required FAT image size.
-    efiboot_files+=("${work_dir}/BOOT${uefi_arch[$arch]}.EFI"
+    efiboot_files+=("${shim_efi}"
+                    "${shim_mok}"
+                    "${grub_efi}"
                     "${pacstrap_dir}/usr/share/edk2-shell/${uefi_arch[$arch],,}/Shell_Full.efi")
-
-    # Create IA32 EFI binary for mixed-mode booting on x86_64 systems with IA32 UEFI
-    if [[ "$arch" == 'x86_64' ]]; then
-        grub-mkstandalone -O i386-efi \
-            --modules="${grubmodules[*]}" \
-            --locales="en@quot" \
-            --themes="" \
-            --sbat=/usr/share/grub/sbat.csv \
-            --disable-shim-lock \
-            -o "${work_dir}/BOOTIA32.EFI" "boot/grub/grub.cfg=${work_dir}/grub-embed.cfg"
-        efiboot_files+=("${work_dir}/BOOTIA32.EFI"
-                        "${pacstrap_dir}/usr/share/edk2-shell/ia32/Shell_Full.efi")
-    fi
 
     # Create a FAT image for the EFI system partition
     _make_efibootimg
@@ -723,14 +659,17 @@ _make_bootmode_uefi.grub() {
     # This is not related to El Torito booting and no firmware uses these files.
     install -d -m 0755 -- "${isofs_dir}/EFI/BOOT"
 
-    # Copy GRUB EFI binary to the default/fallback boot path
-    mcopy -i "${efibootimg}" "${work_dir}/BOOT${uefi_arch[$arch]}.EFI" "::/EFI/BOOT/BOOT${uefi_arch[$arch]}.EFI"
-    install -m 0644 -- "${work_dir}/BOOT${uefi_arch[$arch]}.EFI" "${isofs_dir}/EFI/BOOT/BOOT${uefi_arch[$arch]}.EFI"
-    # Set up mixed mode booting for x86_64 systems with IA32 UEFI
-    if [[ "$arch" == 'x86_64' ]]; then
-        mcopy -i "${efibootimg}" "${work_dir}/BOOTIA32.EFI" ::/EFI/BOOT/BOOTIA32.EFI
-        install -m 0644 -- "${work_dir}/BOOTIA32.EFI" "${isofs_dir}/EFI/BOOT/BOOTIA32.EFI"
-    fi
+    # Install shim as the fallback bootloader
+    mcopy -i "${efibootimg}" "${shim_efi}" "::/EFI/BOOT/BOOTX64.EFI"
+    install -m 0644 -- "${shim_efi}" "${isofs_dir}/EFI/BOOT/BOOTX64.EFI"
+
+    # Install Arch ISO GRUB where shim expects it
+    mcopy -i "${efibootimg}" "${grub_efi}" "::/EFI/BOOT/grubx64.efi"
+    install -m 0644 -- "${grub_efi}" "${isofs_dir}/EFI/BOOT/grubx64.efi"
+
+    # Install MOK manager
+    mcopy -i "${efibootimg}" "${shim_mok}" "::/EFI/BOOT/mmx64.efi"
+    install -m 0644 -- "${shim_mok}" "${isofs_dir}/EFI/BOOT/mmx64.efi"
 
     # Copy GRUB files
     files_to_copy+=("${work_dir}/grub/"*)
@@ -763,8 +702,9 @@ _make_bootmode_uefi.grub() {
         fi
     fi
 
-    _msg_info "Done! GRUB set up for UEFI booting successfully."
+    _msg_info "Done! GRUB & Shim-Signed set up for UEFI booting successfully."
 }
+
 # Deprecated boot modes
 _make_bootmode_uefi-ia32.grub.esp() {
     return 1
