@@ -103,6 +103,7 @@ Defaults env_reset,pwfeedback
 ## User privilege specification
 ##
 root ALL=(ALL:ALL) ALL
+live ALL=(ALL:ALL) ALL
 
 ## Uncomment to allow members of group wheel to execute any command
 # %wheel ALL=(ALL:ALL) ALL
@@ -111,7 +112,7 @@ root ALL=(ALL:ALL) ALL
 # %wheel ALL=(ALL:ALL) NOPASSWD: ALL
 
 ## Uncomment to allow members of group sudo to execute any command
-# %sudo	ALL=(ALL:ALL) ALL
+# %sudo	 ALL=(ALL:ALL) ALL
 
 ## Uncomment to allow any user to run sudo if they know the password
 ## of the user they are running the command as (root by default).

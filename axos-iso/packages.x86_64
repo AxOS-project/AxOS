@@ -183,7 +183,7 @@ xf86-video-nouveau
 
 xf86-video-vesa
 
-nvidia
+#nvidia
 nvidia-utils
 nvidia-dkms
 libglvnd
