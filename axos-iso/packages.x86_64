@@ -133,16 +133,16 @@ zsh
 ##### System Utilities
 fastfetch
 firefox
-sddm
+axos-cage
 bash-completion
 networkmanager
 pipewire-pulse
 inxi
 power-profiles-daemon
-sddm-theme-axos
 packagekit
 packagekit-qt6
 gnome-packagekit
+greetd
 papirus-icon-theme
 virt-what
 gparted

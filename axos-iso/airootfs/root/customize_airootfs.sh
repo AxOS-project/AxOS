@@ -29,9 +29,8 @@ sed -i '/^hosts:/ {
   [[ -e /usr/lib/systemd/system/ntpd.service 	             ]] && systemctl enable ntpd.service;
 } > /dev/null 2>&1
 
-# Enable sddm display-manager
-# ln -s /usr/lib/systemd/system/sddm.service /etc/systemd/system/display-manager.service
-systemctl enable sddm.service
+# Enable display-manager
+systemctl enable greetd.service
 
 # Add live user
 # * groups member
