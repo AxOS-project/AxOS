@@ -1,2 +1,5 @@
 /isowork
 /outdir
+/db.key
+/db.crt
+/db.cer
