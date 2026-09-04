@@ -133,7 +133,6 @@ zsh
 ##### System Utilities
 fastfetch
 firefox
-axos-cage
 bash-completion
 networkmanager
 pipewire-pulse
@@ -142,10 +141,10 @@ power-profiles-daemon
 packagekit
 packagekit-qt6
 gnome-packagekit
-greetd
 papirus-icon-theme
 virt-what
 gparted
+sddm
 
 ##### KDE packages
 #plasma
@@ -154,7 +153,7 @@ filelight
 partitionmanager
 kwrite
 #kdialog
-dolphin
+#dolphin
 #konsole
 
 ##### Sleex packages
@@ -170,6 +169,7 @@ about-axos
 axos-hooks
 axos-hooks-extra
 plymouth-theme-axos
+sddm-theme-axos
 epsilon
 axctl
 
