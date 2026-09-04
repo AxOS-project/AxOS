@@ -30,7 +30,7 @@ sed -i '/^hosts:/ {
 } > /dev/null 2>&1
 
 # Enable display-manager
-systemctl enable greetd.service
+systemctl enable sddm.service
 
 # Add live user
 # * groups member
@@ -49,4 +49,4 @@ echo "root:root" | chpasswd
 echo "live:live" | chpasswd
 
 # autostart the installer
-echo "exec-once = sleep 3 && axinstall" >> /home/live/.config/hypr/custom/execs.conf
+echo "exec-once = sleep 3 && axinstall" >> /home/live/.config/sleex/custom/execs.lua
