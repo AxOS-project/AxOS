@@ -49,4 +49,4 @@ echo "root:root" | chpasswd
 echo "live:live" | chpasswd
 
 # autostart the installer
-echo "exec-once = sleep 3 && axinstall" >> /home/live/.config/sleex/custom/execs.lua
+echo "exec-once = sleep 3 && axinstall" >> /etc/sleex/hyprland/execs.lua
