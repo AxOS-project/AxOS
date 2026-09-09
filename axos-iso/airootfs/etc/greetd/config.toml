@@ -1,8 +1,0 @@
-[terminal]
-vt = 1
-
-[default_session]
-# command = "cage -- qs -p /usr/share/sleex/greetd.qml > /dev/null 2>&1"
-command = "sleex"
-# user = "greeter"
-user = "live"
