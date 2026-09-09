@@ -50,5 +50,5 @@ echo "live:live" | chpasswd
 
 # autostart the installer
 echo 'hl.on("hyprland.start", function () 
-        hl.exec_cmd("axinstall")
+        hl.exec_cmd("sleep 5 && axinstall")
 end)' >> /etc/sleex/hyprland/execs.lua
