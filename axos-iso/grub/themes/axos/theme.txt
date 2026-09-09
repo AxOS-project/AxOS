@@ -5,7 +5,7 @@
 title-text: ""
 desktop-image: "background.jpg"
 desktop-color: "#242424"
-terminal-font: "Terminus Regular 14"
+terminal-font: "flex 14"
 terminal-box: "terminal_box_*.png"
 terminal-left: "0"
 terminal-top: "0"
@@ -15,11 +15,11 @@ terminal-border: "0"
 
 # Show the boot menu
 + boot_menu {
-  left = 19%
-  top = 18%
-  width = 28%
-  height = 54%
-  item_font = "Unifont Regular 16"
+  left = 55%
+  top = 12%
+  width = 34%
+  height = 64%
+  item_font = "flex 16"
   item_color = "#efefef"
   selected_item_color = "#ffffff"
   icon_width = 32
@@ -39,12 +39,12 @@ terminal-border: "0"
 
 # Show a countdown message using the label component
 + label {
-  top = 78%
-  left = 19%
-  width = 28%
+  top = 83%
+  left = 55%
+  width = 34%
   align = "center"
   id = "__timeout__"
   text = "Booting in %d seconds"
   color = "#ffffff"
-  font = "Unifont Regular 16"
+  font = "flex 16"
 }
