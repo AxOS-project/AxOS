@@ -50,5 +50,5 @@ echo "live:live" | chpasswd
 
 # autostart the installer
 echo 'hl.on("hyprland.start", function () 
-        hl.exec_cmd("hyprctl setcursor Bibata-Modern-Classic 24")
+        hl.exec_cmd("axinstall")
 end)' >> /etc/sleex/hyprland/execs.lua
