@@ -52,3 +52,7 @@ echo "live:live" | chpasswd
 echo 'hl.on("hyprland.start", function () 
         hl.exec_cmd("sleep 5 && axinstall")
 end)' >> /etc/sleex/hyprland/execs.lua
+
+# Set the default plymouth theme
+plymouth-set-default-theme axos
+mkinitcpio -p linux
