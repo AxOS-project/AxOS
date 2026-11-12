@@ -173,8 +173,8 @@ sddm-theme-axos
 epsilon
 axctl
 
-axos/grub
-axos/plymouth
+grub
+plymouth
 
 ##### Drivers for GPU
 xf86-video-intel
