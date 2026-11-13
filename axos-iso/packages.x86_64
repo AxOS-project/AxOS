@@ -152,7 +152,7 @@ sddm
 filelight
 partitionmanager
 kwrite
-#kdialog
+kdialog
 #dolphin
 #konsole
 
